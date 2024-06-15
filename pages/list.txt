@@ -1,34 +1,75 @@
+
 <h2 id="list">Problems</h2>
 
 <table class="table table-striped table-bordered table-hover">
 
 <tr><th>Problem No</th><th>ProblemName</th><th>Remark</th></tr>
 
-<tr onclick="location.href='index.html?pages/VPLAS_EFP2_question1.html'">
-<td width="20%">1</td>
-<td width="50%">Bus</td>
-<td id="p0116" width="30%"></td></tr>
-
-<tr onclick="location.href='index.html?pages/VPLAS_EFP2_question2.html'">
-<td width="20%">2</td>
-<td width="50%">4 bit Ripple Counter</td>
-<td id="p0116" width="30%"></td></tr>
-
-<tr onclick="location.href='index.html?pages/VPLAS_EFP2_question3.html'">
-<td width="20%">3</td>
-<td width="50%">BCD Ripple Counter</td>
-<td id="p0116" width="30%"></td></tr>
-
-<tr onclick="location.href='index.html?pages/VPLAS_VTP1_question2.html'">
-<td width="20%">3</td>
-<td width="50%">VTC Q2</td>
-<td id="p0116" width="30%"></td></tr>
-
-<tr onclick="location.href='index.html?pages/VPLAS_VTP1_question3.html'">
-<td width="20%">3</td>
-<td width="50%">VTC Q3</td>
-<td id="p0116" width="30%"></td></tr>
-
+    <tr onclick="location.href='index.html?pages/VPLAS_EFP2_question1.html'">
+    <td width="20%">1</td>
+    <td width="50%">VPLAS_EFP2_question1</td>
+    <td id="p0116" width="30%"></td></tr>
+    
+    <tr onclick="location.href='index.html?pages/VPLAS_EFP2_question2.html'">
+    <td width="20%">2</td>
+    <td width="50%">VPLAS_EFP2_question2</td>
+    <td id="p0116" width="30%"></td></tr>
+    
+    <tr onclick="location.href='index.html?pages/VPLAS_EFP2_question3.html'">
+    <td width="20%">3</td>
+    <td width="50%">VPLAS_EFP2_question3</td>
+    <td id="p0116" width="30%"></td></tr>
+    
+    <tr onclick="location.href='index.html?pages/VPLAS_VTP1_question1.html'">
+    <td width="20%">4</td>
+    <td width="50%">VPLAS_VTP1_question1</td>
+    <td id="p0116" width="30%"></td></tr>
+    
+    <tr onclick="location.href='index.html?pages/VPLAS_VTP1_question2.html'">
+    <td width="20%">5</td>
+    <td width="50%">VPLAS_VTP1_question2</td>
+    <td id="p0116" width="30%"></td></tr>
+    
+    <tr onclick="location.href='index.html?pages/VPLAS_VTP1_question3.html'">
+    <td width="20%">6</td>
+    <td width="50%">VPLAS_VTP1_question3</td>
+    <td id="p0116" width="30%"></td></tr>
+    
+    <tr onclick="location.href='index.html?pages/VPLAS_VTP1_question4.html'">
+    <td width="20%">7</td>
+    <td width="50%">VPLAS_VTP1_question4</td>
+    <td id="p0116" width="30%"></td></tr>
+    
+    <tr onclick="location.href='index.html?pages/VPLAS_VTP1_question5.html'">
+    <td width="20%">8</td>
+    <td width="50%">VPLAS_VTP1_question5</td>
+    <td id="p0116" width="30%"></td></tr>
+    
+    <tr onclick="location.href='index.html?pages/q1.html'">
+    <td width="20%">9</td>
+    <td width="50%">q1</td>
+    <td id="p0116" width="30%"></td></tr>
+    
+    <tr onclick="location.href='index.html?pages/q2.html'">
+    <td width="20%">10</td>
+    <td width="50%">q2</td>
+    <td id="p0116" width="30%"></td></tr>
+    
+    <tr onclick="location.href='index.html?pages/q3.html'">
+    <td width="20%">11</td>
+    <td width="50%">q3</td>
+    <td id="p0116" width="30%"></td></tr>
+    
+    <tr onclick="location.href='index.html?pages/q4.html'">
+    <td width="20%">12</td>
+    <td width="50%">q4</td>
+    <td id="p0116" width="30%"></td></tr>
+    
+    <tr onclick="location.href='index.html?pages/q5.html'">
+    <td width="20%">13</td>
+    <td width="50%">q5</td>
+    <td id="p0116" width="30%"></td></tr>
+    
 </table>
 <h2 id="submission">Submission</h2>
 <code>1</code>
