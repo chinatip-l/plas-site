@@ -1,0 +1,51 @@
+<h2 id="statement">3</h2>
+<pre class="prettyprint" id="scoring-res">
+<div class="fl">module Comp_JKFF(
+    output <input size=2 ans="333e1ff8a8bd915906f212d371c8c2537057b7512be2c0c26f655837a3e076f1" placeholder=1></input> Q,
+    input J,K,CLK
+);
+    always <input size=2 ans="660f4a3aa6250f34196f7befecca24e1ab8c33ba69446528c457ea0ae8733570" placeholder=2></input> (posedge CLK)
+    begin
+        case({J,K})
+            2'b00: Q <= Q;
+            2'b01: Q <= 1'b0;
+            2'b10: Q <= 1'b1;
+            2'b11: Q <= !Q;
+        endcase
+    end
+endmodule
+
+module BCDRippleCounter(
+    input Count,
+    output Q1,Q2,Q4,Q8
+);
+    Comp_JKFF U1(Q1,1'b1,1'b1,Count);
+    Comp_JKFF U2(<input size=2 ans="a28f28c40e59eb6ea398995191e5cb1040db4c68b377f6cc58604c4d8c4dacb4" placeholder=3></input>,!Q8,1'b1,Q1);
+    Comp_JKFF U3(<input size=2 ans="70d63a44d282d4db2edf2958a992ceae28c1109c23770112d4d245227ea8b910" placeholder=4></input>,1'b1,1'b1,Q2);
+    <input size=2 ans="dd9ff36c7ef0747ab1052ecb39b4c05208f60310f8b2eb7b171335108b8867c5" placeholder=5></input> U4(Q8,(Q2&&Q4),1'b1,Q1);
+endmodule
+
+
+1.Please fill in the blank in the source code.
+2.What should be logic gate in blank1 in the image of circuit?<input size=2 ans="6bbbc038e11128c31f7e976ecc7a4ff8716de54cdf9ade1f6ad3cb5ac41b775f" placeholder=6></input>
+  Please choose from NOT, AND, OR, and XOR.
+</div>
+<div class="fr"><img src="images/EFP2_Question3.png" width="500">
+</div>
+</pre>
+
+<!-- 数据统计 -->
+<div class="statisticalData">
+    <h5>Statistical Data</h5>
+    <div>Total number of questions: <span id="totalNumber">6</span></div>
+    <div>Number of correct answers: <span id="correctAnswers"></span></div>
+    <div>Accuracy rate: <span id="accuracyRate"></span></div>
+</div>
+
+<h2 id="answer">Answer</h2>
+<a class="btn" href="javascript:newScoring()">Answer</a>
+<script type="text/javascript">
+    $(function () {
+        prettyPrint();
+    });
+</script>
