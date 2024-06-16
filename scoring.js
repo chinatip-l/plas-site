@@ -32,7 +32,7 @@ function newScoring() {
 			$(this).css('background-color', 'pink');
 			totalNumber++;
 		} else {
-			$(this).css('background-color', 'white');
+			$(this).css('background-color', 'palegreen');
 			flg = "[o]";
 			totalNumber++;
 			correctAnswers++;
